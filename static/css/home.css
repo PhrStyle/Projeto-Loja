@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 5px 10px -8px rgba(0,0,0,0.53);
+    height: 4rem
+}
+
+.head-container {
+    min-width: 75rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login-button {
+    display: flex;
+    border: none;
+    background-color: #FFF;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+}
+
+.vertical-divider {
+    background-color: #cccccc;
+    width: 0.07rem;
+    border: none;
+    margin: 0.5rem;
+}
+
+.buscar-input {
+    margin: 0.5rem;
+    width: 90%;
+    border-radius: 1rem;
+    border-width: thin;
+    color: #cccccc;
+}
+
+.carrinholink {
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    min-width: 75rem;
+}
