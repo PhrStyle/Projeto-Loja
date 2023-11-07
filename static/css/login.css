@@ -1,0 +1,89 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #32a041;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75rem;
+}
+
+.login-card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.3);
+    border-radius: 0.45rem;
+    padding: 2rem;
+    background-color: #FFF;
+    width: 17rem;
+}
+
+.login-card header{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.login-card input {
+    height: 2rem;
+    width: -webkit-fill-available;
+    padding: 0.7rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.4rem;
+    outline: none;
+
+}
+
+.login-card input:focus {
+    box-shadow: 0 1px 0 rgba(0,0,0,0.2)
+}
+
+.login-card a {
+    font-size: 0.9rem;
+}
+
+.login-card .button {
+    height: 3rem;
+    width: 100%;
+    color: #fff;
+    background: #32a041;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: none;
+}
+
+.errormessage {
+    background-color: rgb(255,0,0,0.6);
+    color: white;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.4rem;
+    word-wrap: break-word;
+}
+
+.hidden {
+    display: none;
+}
+
+.showpassword {
+    position: relative;
+    margin-left: -2rem;
+    cursor: pointer;
+}

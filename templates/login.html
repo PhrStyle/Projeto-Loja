@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+    <link rel="stylesheet" type="text/css" href="/static/css/login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+<body>
+    <main>
+        <div class="login-card">
+            <header class="entrar-text">Entrar</header>
+            <div class="errormessage hidden">
+                <i class="bi bi-x-circle"></i>
+                <span class="errortext">Não foi possível logar, seus dados estão incorretos.</span>
+            </div>
+            <input id="email" name="email" placeholder="Digite seu email" type="text">
+            <div>
+                <input id="senha" name="senha" placeholder="Digite sua senha" type="password">
+                <i class="bi bi-eye-slash showpassword" id="showpassword"></i>
+            </div>
+            <a href="recuperarsenha">Esqueceu sua senha?</a>
+            <button class="button" id="entrarbutton">Entrar</button>
+
+        </div>
+    </main>
+</body>
+</html>
+
+<script type="text/javascript" src="/static/js/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="/static/js/login.js"></script>
